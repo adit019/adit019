@@ -12,7 +12,7 @@ Looking forward, I want to contribute to teams that care deeply about **security
 - Container vulnerability scanner with CVE DB + CIS checks; CI integration reduced detection time by ~90%.
 - C++ AuthN/AuthZ service with salted SHA-256; stress-tested to 500+ concurrent sessions; SDL threat model applied.
 - C network analyzer & IDS; deep packet inspection rules engine; ~95% detection accuracy.
-- Hackathons: CAIDF (Top Finalist) and SparHacks (Category Winner).
+- Hackathons: CAIDF (Top Finalist) and SparkHacks (Category Winner).
 
 ---
 
