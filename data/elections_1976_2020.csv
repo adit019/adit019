@@ -1,0 +1,13 @@
+year,democratic_candidate,republican_candidate,democratic_popular_pct,republican_popular_pct,third_party_pct,democratic_electoral_votes,republican_electoral_votes,other_electoral_votes,winner_party
+1976,Jimmy Carter,Gerald Ford,50.1,48.0,1.9,297,240,0,Democratic
+1980,Jimmy Carter,Ronald Reagan,41.0,50.7,8.3,49,489,0,Republican
+1984,Walter Mondale,Ronald Reagan,40.6,58.8,0.6,13,525,0,Republican
+1988,Michael Dukakis,George H. W. Bush,45.6,53.4,1.0,111,426,1,Republican
+1992,Bill Clinton,George H. W. Bush,43.0,37.4,19.6,370,168,0,Democratic
+1996,Bill Clinton,Bob Dole,49.2,40.7,10.1,379,159,0,Democratic
+2000,Al Gore,George W. Bush,48.4,47.9,3.7,266,271,1,Republican
+2004,John Kerry,George W. Bush,48.3,50.7,1.0,251,286,1,Republican
+2008,Barack Obama,John McCain,52.9,45.7,1.4,365,173,0,Democratic
+2012,Barack Obama,Mitt Romney,51.1,47.2,1.7,332,206,0,Democratic
+2016,Hillary Clinton,Donald Trump,48.2,46.1,5.7,227,304,7,Republican
+2020,Joe Biden,Donald Trump,51.3,46.8,1.9,306,232,0,Democratic
