@@ -25,14 +25,42 @@ Looking forward, I want to contribute to teams that care deeply about **security
 ---
 
 ## Featured Projects
-- [Container Vulnerability Scanner](https://github.com/adit019/container-vuln-scanner) — Python, Docker, CIS checks, CI block on high CVEs  
-- [Secure AuthZ/AuthN Service](https://github.com/adit019/secure-authz-service-cpp) — C++, salted SHA-256, load testing, SDL mitigations  
-- [Network Traffic Analyzer & IDS](https://github.com/adit019/network-traffic-analyzer-ids) — C, custom packet capture + rules engine (repo to be made public)  
-- [Secure Backend API](https://github.com/adit019/secure-backend-api) — Python (Flask), REST, JWT, parameterized queries, automated testing  
-- [Chess Neural Networks](https://github.com/adit019/uic-chess-nn) — Python, trained models to evaluate chess board states  
+- [Container Vulnerability Scanner](https://github.com/adit019/container-vuln-scanner) — Python, Docker, CIS checks, CI block on high CVEs
+- [Secure AuthZ/AuthN Service](https://github.com/adit019/secure-authz-service-cpp) — C++, salted SHA-256, load testing, SDL mitigations
+- [Network Traffic Analyzer & IDS](https://github.com/adit019/network-traffic-analyzer-ids) — C, custom packet capture + rules engine (repo to be made public)
+- [Secure Backend API](https://github.com/adit019/secure-backend-api) — Python (Flask), REST, JWT, parameterized queries, automated testing
+- [Chess Neural Networks](https://github.com/adit019/uic-chess-nn) — Python, trained models to evaluate chess board states
 
 ---
 
 ## Contact
-- LinkedIn: [linkedin.com/in/adit-sharma-73955a21a](https://linkedin.com/in/adit-sharma-73955a21a)  
+- LinkedIn: [linkedin.com/in/adit-sharma-73955a21a](https://linkedin.com/in/adit-sharma-73955a21a)
 - Email: **ashar102@uic.edu**
+
+---
+
+## U.S. Presidential Election Data Visualization (1976-2020)
+
+This repository also includes a small, self-contained exploration of U.S. presidential election outcomes from 1976 through 2020. The project packages the source data, a visualization script, and the generated outputs so you can reproduce and extend the analysis locally.
+
+### What’s included
+- `data/elections_1976_2020.csv` — Aggregated results with popular vote percentages, Electoral College totals, and third-party vote share.
+- `scripts/visualize.py` — Generates charts for major-party popular vote trends, margins, Electoral College outcomes, and third-party vote share. It also exports a markdown summary table to `visualizations/README.md`.
+- `visualizations/` — Default output directory for generated PNG charts and the summary markdown table.
+
+### How to run it
+1. Create and activate a virtual environment:
+   ```bash
+   python -m venv .venv
+   source .venv/bin/activate
+   ```
+2. Install dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
+3. Generate the charts and summary table:
+   ```bash
+   python scripts/visualize.py
+   ```
+
+All assets will be written to `visualizations/`. The script is intentionally minimal and well-documented so it can serve as a starting point for deeper analysis (e.g., party flips by state or turnout trends).
